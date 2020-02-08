@@ -1,0 +1,161 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	height: 70px;
+	background-color: #ec4a4a;
+}
+
+#img {
+	border-radius: 50%;
+}
+.name{
+	margin-top: 12px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: white;
+}
+#logo {
+	display: inline;
+	float: left;
+	margin: auto;
+	padding-left: 30px;
+	padding-top: 20px;
+	color: white;
+}
+#user{
+	display: flex;
+	float: right;
+	margin: auto;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+.profile {
+  height: 35px;
+  width: 35px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+#head{
+	height: 15vh;
+	width: 75%;
+	background-color:#332323;
+	padding-top: 20px;
+	padding-left:20px;
+
+}
+
+#total {
+	padding-top: 10px;
+}
+
+.hname {
+	color: white;
+	margin-left: 30px;
+	margin-bottom: 7px;
+}
+
+.aname{
+	color: white;
+	margin-left: 30px;
+	margin-top: 2px;
+}
+
+#panel {
+	width: 25%;
+	height: 100vh;
+	background-color:gainsboro;
+}
+
+#items {
+	margin-top: 55px;
+	padding-left: 70px;
+	margin-right: 100px;
+	height: 450%;
+
+}
+
+#items p{
+	margin-top: 10px;
+	font-size: 15px;
+	color: darkslategray;
+	max-width: 700px;
+}
+
+.desc {
+
+	display: flex;
+}
+
+.btn {
+	width: 80px;
+	margin-left: 55%;
+	padding:7px;
+	position: absolute;
+
+}
+
+.amount {
+	margin-top: -10px !important;
+	padding-bottom: 10px;
+	border-bottom:1px solid gray;
+}
+
+.fname {
+	padding-top: 10px;
+}
+
+#right-in{
+    padding: 30px;
+    margin-left: 20px;
+}
+
+#right{
+    padding-top: 50px;
+    padding-bottom:300px;
+    font-size: 23px;
+    height: 120vh;
+    background-color:gainsboro;
+}
+
+#pitem{
+    padding-top: 20px;
+    margin-right: 70px;
+    color: darkslategray;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-size: 15px                
+}
+ .ip{
+    height: 30px;
+    width: 30px;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.spn{
+    float:right;
+    margin-top: 12spx;
+}
+#tx-w{
+	height: 6px;
+	padding: 10px;
+}
+
+#pay{
+    width: 80%;
+    height: 40px;
+    margin: 15px;
+    background-color: #ec4a4a;
+    color: #fff;
+    font-size: 16px;
+}
