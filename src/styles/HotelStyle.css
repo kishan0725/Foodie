@@ -13,6 +13,40 @@
 	background-color:#ebd7ff;
 }
 
+#menubar{
+	height: 70px;
+	width: 100%;
+	background: #ffa3a3;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#menu-title {
+	display: flex;
+	float: left;
+	margin-top: 20px;
+	color: #212b2b;
+}
+
+.sort-option {
+	margin-top: 3px;
+}
+
+#sort {
+	margin-top: 22px;
+	font-size: 18px;
+	display: flex;
+	float: right;
+}
+
+#sort-metrics {
+	padding-left:5px; 
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+}
+
 .cart {
 	margin:20px;	
 	padding:10px;
@@ -61,7 +95,9 @@
 	border-radius: 50%;
 }
 
-
+#hotel-title {
+	max-width: 180px;
+}
 
 
 div.cart  p {

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/LoginStyle.css'
 import Front from '../images/FB.jpg'
-import AppLogo from '../images/logo.jpg'
 import TextInput from '../components/TextInput'
 class LoginPage extends React.Component{
     constructor(){
@@ -41,16 +40,17 @@ class LoginPage extends React.Component{
             </div>
 
             <div id="id2">
-                <center><img src={AppLogo} alt="logo"/></center>
+                {/* <center><img src={AppLogo} alt="logo"/></center> */}
+                <center><h1 id="logoApp">FOODIE</h1></center>
                     <div id="id3">
                     
-                    <center><h2>Log In </h2><br/>
+                    <center><h2>LOG IN</h2><br/>
                     { this.state.clickable && 
                     <div>Username: {this.state.username} <br/>
                     Password: {this.state.password}</div>}
                     <form action="#" id="form">
-                        <TextInput type="text" name="username" placeholder="Enter username"  onChange={(e)=>{this.setState({username: e.target.value})}} />
-                        <TextInput type="password" name="password" placeholder="Enter password"  onChange={(e)=>{this.setState({password: e.target.value})}}/>
+                        <TextInput type="text" name="username" placeholder="Enter Username"  onChange={(e)=>{this.setState({username: e.target.value})}} />
+                        <TextInput type="password" name="password" placeholder="Enter Password"  onChange={(e)=>{this.setState({password: e.target.value})}}/>
                         
                     </form>
                     </center>

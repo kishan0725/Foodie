@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');	
 
 body {
     width: 100%;
@@ -21,6 +22,7 @@ body {
 	border-color: black;
 	margin: 6px 0 6px 0;
 	border-radius: 30px;
+	border-width: 0.1rem;
 	height: 15px;
 }
 
@@ -33,6 +35,13 @@ body {
 	background-color: #ec4a4a;
 	border-color: #ec4a4a;
 	color: white;
-	border-radius: 5px;
+	border-radius: 25px;
+	
 }
 
+#logoApp{
+	font-size: 60px;
+	color: #ec4a4a;
+	font-family:'Akronim', cursive;
+	padding:100px 0px 100px 0px;
+}

@@ -11,9 +11,9 @@ class Orders extends React.Component {
         this.state = {
             list: data,
             id:'',
-            newList:'',
+            newList:[],
             price:'',
-            name:'',
+            name:[],
             total:0,
             quantity:0,
             clickable: false
@@ -30,10 +30,11 @@ class Orders extends React.Component {
     }
 
     childHandler = (ChildPrice,ChildName,ChildQuantity) => {
-        
+        const names = this.state.name; 
+        names.push(ChildName);
         this.setState(
             {price: ChildPrice,
-            name: ChildName,
+            name: names,
             quantity : ChildQuantity+1,
             clickable: true }
         )};
@@ -41,8 +42,7 @@ class Orders extends React.Component {
     incrementQuantity = (incQuan) => {
         this.setState(
             {
-                quantity: incQuan+1,
-                // total: this.state.quantity*p
+                quantity: incQuan+1
                 
             }
         )
@@ -52,7 +52,7 @@ class Orders extends React.Component {
         if(this.state.quantity>=1){
             this.setState(
                 {
-                    quantity: decQuan-1,
+                    quantity: decQuan-1
                     
                 }
             )
@@ -67,12 +67,7 @@ class Orders extends React.Component {
             }
         )
     }
-    
-    // setname = (n) => {
-    //     this.setState({
-    //         newList:this.state.list.filter(function(rec){ return rec.name==n})
-    //     })
-    // }
+   
 
     render(){
         return(
@@ -95,13 +90,14 @@ class Orders extends React.Component {
             <div id="content">
                 <div id="head">
                     <h1 className='hname'>{this.state.newList.map(x => x.name)}</h1>
-                    <h5 className='aname'> &#xf3c5; {this.state.newList.map(x => x.address)}</h5>
+                    <h5 className='aname'><i class="fa fa-map-marker" style={{fontSize:18}}></i> {this.state.newList.map(x => x.address)}</h5>
                     <div id='items'>
                         <center><h2>Order Now</h2></center>
                         <br/>
 
                         {this.state.newList.map (
                             x => x.menu.map(item => <Menu 
+                                                        id = {item.id}
                                                         desc={item.desc} 
                                                         price={item.price} 
                                                         name={item.name}

@@ -16,9 +16,10 @@ class RestaurantCard extends React.Component{
                     pathname:`/order/${this.props.name}`}}>
                     <center><img src={this.props.thumbnail_image} alt={this.props.name}/></center>
                 </Link>
-                    <h3>{this.props.name}</h3>
+                    <h3 id="hotel-title">{this.props.name}</h3>
                     <p>{this.props.cuisines}</p>
                     <p>Rating: {'★'.repeat(this.props.rating)}</p>
+                    <p>Reviews: {this.props.reviews}</p>
             </div>
         );
     }
