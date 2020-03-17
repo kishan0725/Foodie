@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![fork this repo](http://githubbadges.com/fork.svg?user=kishan0725&repo=Foodie)](http://github.com/kishan0725/Foodie/fork)
+
 ## Screenshots
 
 #### LoginPage
