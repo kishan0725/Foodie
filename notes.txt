@@ -1,0 +1,6 @@
+main BG colour 	rgb(159, 223, 180);   i think
+
+the login page may put people off using app, instead, straight into menu and have to login when you check out?
+
+Typography???
+

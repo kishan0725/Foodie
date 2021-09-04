@@ -74,7 +74,7 @@ class Orders extends React.Component {
         <div>
             <div className="nav">
                 <div id="logo">
-                    <h2>FOODIE</h2>
+                    <h2>The Cafe</h2>
                 </div>
 
                 <div id="user">
