@@ -5,18 +5,16 @@
 
 
 .maincart{
-	/* margin-top: 10px;	
-	margin-left: 10px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	background-color:#ebd7ff;
+	background-color:#65b19e;;
 }
 
 #menubar{
 	height: 70px;
 	width: 100%;
-	background: #ffa3a3;
+	background: #65b19e;;
 	padding-left: 15px;
 	padding-right: 15px;
 }

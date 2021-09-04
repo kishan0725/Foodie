@@ -1,10 +1,12 @@
-*{
-	margin:0px;
-	padding:0px;
+
+html {
+	background-color: rgb(159, 223, 180);
+	margin-top: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');	
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+	
 
 body {
     width: 100%;
@@ -13,11 +15,23 @@ body {
 }
 
 #id1 {
-	float: left
+	float: left;
+	margin: 25px;
+}
+
+#id2 {
+	background-color: rgb(159, 223, 180);
+	padding: 10px
+}
+
+#id3 {
+	padding-top: 20px;
+	background-color: rgb(159, 223, 180);
+
 }
 
 #input {
-	width: 400px;
+	width: 200px;
 	padding: 10px;
 	border-color: black;
 	margin: 6px 0 6px 0;
@@ -27,21 +41,34 @@ body {
 }
 
 
-
 #btn {
 	width: 400px;
 	height: 30px;
 	font-size: 17px;
-	background-color: #ec4a4a;
-	border-color: #ec4a4a;
+	background-color: #1b1919;
+	border-color: #4aecc3;
 	color: white;
 	border-radius: 25px;
 	
 }
 
+@import url(https://allfont.net/allfont.css?fonts=broadway-normal);
+
 #logoApp{
-	font-size: 60px;
-	color: #ec4a4a;
-	font-family:'Akronim', cursive;
-	padding:100px 0px 100px 0px;
+	font-size: 3.5em;
+	color: black;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Broadway-Normal', arial;
+}
+
+#logoAppsm{
+	font-size: 1.5em;
+	color: black;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Broadway-Normal', arial;
+}
+
+#line {
+	width: 25em;
+	color: rgb(31, 28, 29);
 }
