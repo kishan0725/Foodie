@@ -24,7 +24,7 @@ class LoginPage extends React.Component{
             this.props.history.push(`/hotels`);
         }
         else{
-            window.alert("Invalid Username or Password. Try Again!")
+            window.alert("Invalid Username or Password. Try Again! and again, and again, and again")
         }
     }
 
